@@ -14,13 +14,14 @@ cd into the bin directory
 export GOBIN=$(pwd)
 ``
 
-now install source for sdl2 and gfx (requires gcc compiler and sdl2/gfx libs/headers, see (installation 
-instructions)[https://github.com/veandco/go-sdl2]).
+now install source for sdl2 and gfx (requires gcc compiler and sdl2/gfx libs/headers, see [installation 
+instructions](https://github.com/veandco/go-sdl2)).
 
 
 ``
 go get github.com/veandco/go-sdl2/sdl  
-go get github.com/veandco/go-sdl2/gfx
+
+go get github.com/veandco/go-sdl2/gfx  
 ``
 
 with those dependencies installed, you should be able to compile the project with
